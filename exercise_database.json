@@ -1,0 +1,161 @@
+[
+    {
+        "name": "Brisk Walking",
+        "type": "Cardio",
+        "intensity": "Moderate",
+        "impact": "Low",
+        "duration": "30-45 minutes",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "High_Sugar",
+            "Hypertension",
+            "High_Cholesterol",
+            "PCOS",
+            "Pregnancy",
+            "Post_Partum"
+        ]
+    },
+    {
+        "name": "Gentle Walking",
+        "type": "Cardio",
+        "intensity": "Low",
+        "impact": "Low",
+        "duration": "20-30 minutes",
+        "suitability": [
+            "Anemia",
+            "Kidney_Disease",
+            "Joint Pain",
+            "Recent Surgery"
+        ]
+    },
+    {
+        "name": "Swimming",
+        "type": "Cardio",
+        "intensity": "Moderate",
+        "impact": "Low",
+        "duration": "30 minutes",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "High_Sugar",
+            "Hypertension",
+            "Joint Pain",
+            "Pregnancy"
+        ]
+    },
+    {
+        "name": "Stationary Cycling",
+        "type": "Cardio",
+        "intensity": "Moderate",
+        "impact": "Low",
+        "duration": "30-40 minutes",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "High_Sugar",
+            "Hypertension",
+            "Anemia"
+        ]
+    },
+    {
+        "name": "Bodyweight Squats",
+        "type": "Strength",
+        "intensity": "Moderate",
+        "impact": "Low",
+        "reps": "3 sets of 10-15 reps",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "High_Sugar",
+            "PCOS"
+        ]
+    },
+    {
+        "name": "Wall Push-ups",
+        "type": "Strength",
+        "intensity": "Low",
+        "impact": "Low",
+        "reps": "3 sets of 12 reps",
+        "suitability": [
+            "Normal",
+            "Anemia",
+            "Post_Partum"
+        ]
+    },
+    {
+        "name": "Glute Bridges",
+        "type": "Strength",
+        "intensity": "Low",
+        "impact": "Low",
+        "reps": "3 sets of 15 reps",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "Post_Partum",
+            "Joint Pain"
+        ]
+    },
+    {
+        "name": "Plank",
+        "type": "Strength",
+        "intensity": "Moderate",
+        "impact": "Low",
+        "duration": "3 sets, 30-60 second hold",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "PCOS"
+        ]
+    },
+    {
+        "name": "Stretching Routine",
+        "type": "Flexibility",
+        "intensity": "Low",
+        "impact": "Low",
+        "duration": "15-20 minutes",
+        "suitability": [
+            "All"
+        ]
+    },
+    {
+        "name": "Yoga / Tai Chi",
+        "type": "Flexibility",
+        "intensity": "Low",
+        "impact": "Low",
+        "duration": "30-45 minutes",
+        "suitability": [
+            "Normal",
+            "Hypertension",
+            "PCOS",
+            "Pregnancy"
+        ]
+    },
+    {
+        "name": "Chair Yoga",
+        "type": "Flexibility",
+        "intensity": "Low",
+        "impact": "Low",
+        "duration": "20-30 minutes",
+        "suitability": [
+            "Kidney_Disease",
+            "Joint Pain",
+            "Balance Issues",
+            "Anemia"
+        ]
+    },
+    {
+        "name": "Light Weight Training (Dumbbells)",
+        "type": "Strength",
+        "intensity": "Moderate",
+        "impact": "Low",
+        "reps": "3 sets of 12-15 reps per exercise",
+        "suitability": [
+            "Normal",
+            "Obesity",
+            "High_Sugar",
+            "High_Cholesterol",
+            "PCOS"
+        ]
+    }
+]
