@@ -1,0 +1,270 @@
+﻿Age,Gender,Hb,Hematocrit,Sugar,Cholesterol,Urea,Creatinine,Systolic_BP,Diastolic_BP,Weight_kg,Height_cm,BMI,Dietary_Preference,Cigarettes_Per_Day,Alcohol_Consumption,Fluid_Intake_ml,Limitations,Condition
+45,Male,15.1,45,95,180,30,0.9,120,80,75,180,23.1,Non-Vegetarian,0,Low,2000,None,Normal
+62,Female,10.8,32,110,190,45,1.1,125,82,68,165,24.9,Vegetarian,0,None,1800,Fatigue,Anemia
+55,Male,14.2,42,190,220,55,1.3,130,85,95,175,31.0,Non-Vegetarian,20,Moderate,2500,None,High_Sugar_and_Obesity
+70,Female,13.5,40,120,250,90,2.5,150,95,80,160,31.3,Ovo-Vegetarian,0,None,1000,Joint Pain,Kidney_Disease_and_Hypertension_and_High_Cholesterol_and_Obesity
+38,Male,9.8,29,185,210,65,1.8,128,84,105,185,30.8,Non-Vegetarian,25,High,3000,Fatigue,Anemia_and_High_Sugar_and_Kidney_Disease_and_Obesity
+48,Female,10.5,31,115,260,120,3.1,160,100,85,162,32.4,Vegetarian,0,Low,800,Fatigue,Anemia_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+65,Male,14.8,44,210,240,85,2.2,155,98,98,170,33.9,Non-Vegetarian,15,Moderate,1500,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+75,Female,9.5,28,200,280,150,4.0,165,102,75,155,31.2,Ovo-Vegetarian,5,None,700,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+29,Male,16.0,48,88,170,25,0.8,110,70,80,182,24.2,Non-Vegetarian,0,None,2200,None,Normal
+42,Female,13.8,41,105,185,28,0.7,118,78,65,170,22.5,Vegetarian,0,Low,1900,None,Normal
+58,Male,11.1,33,99,215,70,1.5,122,81,92,178,29.0,Non-Vegetarian,10,High,2800,Fatigue,Anemia_and_High_Cholesterol_and_Kidney_Disease
+33,Female,12.5,37,175,195,40,1.0,135,88,88,168,31.2,Vegetarian,0,None,2100,None,PCOS
+68,Male,15.5,46,110,200,100,2.8,145,92,110,180,33.9,Non-Vegetarian,2,Moderate,1200,Joint Pain,Hypertension_and_Kidney_Disease_and_Obesity
+41,Female,10.1,30,195,225,80,2.1,133,86,90,160,35.2,Ovo-Vegetarian,30,High,2600,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+53,Male,11.5,34,105,190,110,3.0,155,96,100,177,31.9,Non-Vegetarian,0,Low,900,Fatigue,Anemia_and_Hypertension_and_Kidney_Disease_and_Obesity
+49,Female,13.9,41,220,270,60,1.4,148,94,82,158,32.8,Vegetarian,0,None,1700,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+72,Male,10.0,29,215,290,180,5.2,170,105,115,175,37.5,Non-Vegetarian,40,High,600,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+25,Female,13.2,39,92,175,22,0.6,112,72,60,165,22.0,Vegetarian,0,None,2000,None,Normal
+36,Male,15.8,47,95,188,31,0.9,120,80,85,188,24.0,Non-Vegetarian,0,Moderate,2300,None,Normal
+63,Female,10.8,32,112,230,75,1.9,128,83,78,163,29.4,Vegetarian,0,None,1400,Fatigue,Anemia_and_High_Cholesterol_and_Kidney_Disease
+51,Male,14.3,43,160,205,48,1.2,129,84,90,180,27.8,Non-Vegetarian,3,Low,2400,None,High_Sugar
+69,Female,12.8,38,125,265,95,2.6,138,91,95,160,37.1,Ovo-Vegetarian,0,None,1100,Joint Pain,Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+39,Male,9.9,29,170,190,58,1.3,130,85,102,175,33.3,Non-Vegetarian,18,Moderate,2700,Fatigue,Anemia_and_High_Sugar_and_Obesity
+50,Female,10.9,32,118,245,130,3.5,148,93,92,155,38.3,Vegetarian,0,Low,850,Fatigue,Anemia_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+66,Male,15.0,45,205,255,88,2.3,160,100,105,172,35.5,Non-Vegetarian,22,High,1600,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+78,Female,9.7,28,225,300,160,4.5,175,108,85,150,37.8,Ovo-Vegetarian,8,None,650,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+28,Male,14.8,44,85,160,24,0.7,108,68,78,185,22.8,Non-Vegetarian,0,None,2100,None,Normal
+44,Female,13.7,41,115,198,33,0.8,124,79,66,172,22.3,Vegetarian,0,Low,1950,None,Normal
+59,Male,11.3,33,102,210,72,1.6,126,82,94,179,29.3,Non-Vegetarian,12,Moderate,2750,Fatigue,Anemia_and_High_Cholesterol_and_Kidney_Disease
+35,Female,12.1,36,180,200,42,1.1,132,87,85,166,30.8,Vegetarian,0,None,2150,None,High_Sugar_and_Obesity
+71,Male,15.2,45,115,220,105,2.9,152,97,112,182,33.9,Non-Vegetarian,15,High,1150,Joint Pain,Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+43,Female,10.3,30,205,235,82,2.2,136,89,92,161,35.5,Ovo-Vegetarian,28,High,2550,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+56,Male,11.8,35,122,195,115,3.2,158,99,102,176,32.9,Non-Vegetarian,2,Low,950,Fatigue,Anemia_and_Hypertension_and_Kidney_Disease_and_Obesity
+52,Female,14.0,42,230,280,62,1.5,162,101,84,159,33.2,Vegetarian,0,None,1650,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+80,Male,9.2,27,210,295,190,5.5,180,110,120,174,39.6,Non-Vegetarian,50,High,500,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+31,Female,13.4,40,90,182,26,0.6,114,74,62,168,22.0,Vegetarian,0,None,1980,None,Normal
+46,Male,15.3,46,98,192,30,0.8,119,77,88,186,25.4,Non-Vegetarian,0,Moderate,2250,None,Normal
+61,Female,11.0,33,108,240,78,2.0,127,81,80,164,29.7,Ovo-Vegetarian,3,None,1350,Fatigue,Anemia_and_High_Cholesterol_and_Kidney_Disease
+37,Male,14.6,43,165,215,50,1.3,131,86,96,177,30.6,Non-Vegetarian,20,Moderate,2650,None,High_Sugar_and_High_Cholesterol_and_Obesity
+74,Female,13.0,39,128,260,98,2.7,142,90,98,162,37.4,Vegetarian,0,Low,1250,Joint Pain,Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+40,Male,9.6,28,180,200,68,1.7,134,88,108,183,32.2,Non-Vegetarian,25,High,2850,Fatigue,Anemia_and_High_Sugar_and_Kidney_Disease_and_Obesity
+54,Female,11.2,33,110,250,125,3.4,150,94,94,157,38.1,Ovo-Vegetarian,0,None,880,Fatigue,Anemia_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+67,Male,14.7,44,215,275,92,2.4,158,99,108,173,36.1,Non-Vegetarian,18,Moderate,1550,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+77,Female,10.4,31,235,310,170,4.8,172,106,88,152,38.1,Vegetarian,10,Low,620,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+30,Male,15.9,48,94,178,28,0.8,116,76,82,184,24.2,Non-Vegetarian,0,Low,2180,None,Normal
+47,Female,13.1,39,101,193,35,0.9,121,79,69,171,23.6,Vegetarian,0,None,2050,None,Normal
+64,Male,10.6,31,97,222,74,1.8,123,80,96,180,29.6,Non-Vegetarian,14,High,2780,Fatigue,Anemia_and_High_Cholesterol_and_Kidney_Disease
+34,Female,12.3,37,195,208,44,1.2,137,89,89,167,31.9,Ovo-Vegetarian,0,None,2080,None,PCOS
+73,Male,15.4,46,112,225,108,3.0,146,93,115,181,35.1,Non-Vegetarian,16,Moderate,1120,Joint Pain,Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+22,Male,15.5,47,90,175,26,0.7,118,75,70,175,22.9,Vegetarian,0,None,2300,None,Normal
+81,Female,9.0,27,240,320,200,6.0,185,115,90,150,40.0,Ovo-Vegetarian,0,None,450,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+24,Female,13.0,39,95,180,24,0.6,110,70,58,160,22.7,Ovo-Vegetarian,0,None,1900,None,Normal
+26,Male,16.2,49,85,165,22,0.5,112,72,82,190,22.7,Non-Vegetarian,5,Low,2500,None,Normal
+28,Female,12.8,38,100,188,27,0.7,115,74,62,168,22.0,Vegetarian,0,None,2000,None,Normal
+30,Male,15.0,45,105,195,30,0.8,120,78,88,185,25.7,Non-Vegetarian,10,Moderate,2400,None,Normal
+32,Female,13.5,40,110,200,32,0.9,122,80,70,170,24.2,Ovo-Vegetarian,0,Low,2100,None,Pregnancy
+34,Male,14.8,44,115,205,35,1.0,124,82,90,180,27.8,Non-Vegetarian,15,High,2300,None,High_Cholesterol
+36,Female,11.5,34,120,210,38,1.1,126,84,75,165,27.5,Vegetarian,5,None,1900,Fatigue,Anemia_and_High_Cholesterol
+38,Male,13.0,39,125,215,40,1.2,128,86,95,178,29.9,Non-Vegetarian,20,Moderate,2200,None,High_Cholesterol
+40,Female,10.0,30,130,220,42,1.3,130,88,80,162,30.5,Ovo-Vegetarian,0,Low,1800,Fatigue,Anemia_and_High_Cholesterol_and_Obesity
+42,Male,12.5,37,135,225,45,1.4,132,90,100,175,32.7,Non-Vegetarian,25,High,2100,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+44,Female,9.5,28,140,230,48,1.5,134,92,85,160,33.2,Vegetarian,0,None,1700,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+46,Male,14.0,42,145,235,50,1.6,136,94,105,182,31.7,Non-Vegetarian,30,Moderate,2000,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+48,Female,11.0,33,150,240,52,1.7,138,96,90,158,36.0,Ovo-Vegetarian,10,Low,1600,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+50,Male,13.5,40,155,245,55,1.8,140,98,110,180,33.9,Non-Vegetarian,35,High,1900,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+52,Female,10.5,31,160,250,58,1.9,142,100,95,155,39.5,Vegetarian,0,None,1500,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+54,Male,14.5,43,165,255,60,2.0,144,102,115,178,36.2,Non-Vegetarian,40,Moderate,1800,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+56,Female,9.8,29,170,260,62,2.1,146,104,100,152,43.2,Ovo-Vegetarian,15,Low,1400,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+58,Male,12.0,36,175,265,65,2.2,148,106,120,175,39.2,Non-Vegetarian,45,High,1700,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+60,Female,11.2,33,180,270,68,2.3,150,108,105,150,46.7,Vegetarian,0,None,1300,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+62,Male,13.8,41,185,275,70,2.4,152,110,125,180,38.6,Non-Vegetarian,50,Moderate,1600,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+64,Female,10.2,30,190,280,72,2.5,154,112,110,155,45.8,Ovo-Vegetarian,20,Low,1200,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+66,Male,14.2,42,195,285,75,2.6,156,114,130,178,41.0,Non-Vegetarian,55,High,1500,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+68,Female,9.2,27,200,290,78,2.7,158,116,115,152,49.7,Vegetarian,0,None,1100,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+70,Male,13.2,39,205,295,80,2.8,160,118,135,175,44.1,Non-Vegetarian,60,Moderate,1400,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+72,Female,10.8,32,210,300,82,2.9,162,120,120,150,53.3,Ovo-Vegetarian,25,Low,1000,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+74,Male,14.8,44,215,305,85,3.0,164,122,140,180,43.2,Non-Vegetarian,65,High,1300,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+76,Female,9.5,28,220,310,88,3.1,166,124,125,155,52.0,Vegetarian,5,None,900,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+78,Male,12.8,38,225,315,90,3.2,168,126,145,178,45.7,Non-Vegetarian,70,Moderate,1200,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+80,Female,11.8,35,230,320,92,3.3,170,128,130,152,56.2,Ovo-Vegetarian,0,Low,800,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+23,Male,15.8,47,88,172,25,0.7,116,73,72,178,22.7,Non-Vegetarian,0,None,2350,None,Normal
+25,Female,13.3,40,92,183,23,0.6,111,71,59,162,22.5,Vegetarian,0,None,1950,None,Normal
+27,Male,16.0,48,96,168,21,0.5,114,74,84,192,22.8,Non-Vegetarian,3,Low,2550,None,Normal
+29,Female,12.9,38,102,190,28,0.7,117,75,64,170,22.1,Ovo-Vegetarian,0,None,2050,None,Normal
+31,Male,15.2,45,108,198,31,0.8,121,79,90,187,25.7,Non-Vegetarian,12,Moderate,2450,None,Normal
+33,Female,13.6,41,112,203,33,0.9,123,81,72,172,24.3,Vegetarian,0,Low,2150,None,Post_Partum
+35,Male,14.9,44,118,208,36,1.0,125,83,93,182,28.1,Non-Vegetarian,18,High,2350,None,High_Cholesterol
+37,Female,11.6,35,122,212,39,1.1,127,85,78,167,28.0,Ovo-Vegetarian,6,None,1950,Fatigue,Anemia_and_High_Cholesterol
+39,Male,13.1,39,128,218,41,1.2,129,87,98,180,30.2,Non-Vegetarian,22,Moderate,2250,None,High_Cholesterol_and_Obesity
+41,Female,10.1,30,132,222,43,1.3,131,89,82,164,30.5,Vegetarian,0,Low,1850,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Obesity
+43,Male,12.6,38,138,228,46,1.4,133,91,102,177,32.5,Non-Vegetarian,28,High,2150,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+45,Female,9.6,29,142,232,49,1.5,135,93,88,161,33.9,Ovo-Vegetarian,0,None,1750,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+47,Male,14.1,42,148,238,51,1.6,137,95,108,184,31.8,Non-Vegetarian,33,Moderate,2050,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+49,Female,11.1,33,152,242,53,1.7,139,97,92,159,36.4,Vegetarian,11,Low,1650,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+51,Male,13.6,41,158,248,56,1.8,141,99,112,181,34.2,Non-Vegetarian,38,High,1950,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+53,Female,10.6,32,162,252,59,1.9,143,101,98,157,39.7,Ovo-Vegetarian,0,None,1550,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+55,Male,14.6,44,168,258,61,2.0,145,103,118,179,36.8,Non-Vegetarian,42,Moderate,1850,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+57,Female,9.9,30,172,262,63,2.1,147,105,102,154,43.0,Vegetarian,16,Low,1450,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+59,Male,12.1,36,178,268,66,2.2,149,107,122,176,39.3,Non-Vegetarian,48,High,1750,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+61,Female,11.3,34,182,272,69,2.3,151,109,108,151,47.3,Ovo-Vegetarian,0,None,1350,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+63,Male,13.9,42,188,278,71,2.4,153,111,128,183,38.2,Non-Vegetarian,52,Moderate,1650,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+65,Female,10.3,31,192,282,73,2.5,155,113,112,156,46.1,Vegetarian,21,Low,1250,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+67,Male,14.3,43,198,288,76,2.6,157,115,132,179,41.2,Non-Vegetarian,58,High,1550,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+69,Female,9.3,28,202,292,79,2.7,159,117,118,153,50.5,Ovo-Vegetarian,0,None,1150,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+71,Male,13.3,40,208,298,81,2.8,161,119,138,176,44.5,Non-Vegetarian,62,Moderate,1450,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+73,Female,10.9,33,212,302,83,2.9,163,121,122,151,53.5,Vegetarian,26,Low,1050,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+75,Male,14.9,45,218,308,86,3.0,165,123,142,181,43.3,Non-Vegetarian,68,High,1350,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+77,Female,9.6,29,222,312,89,3.1,167,125,128,156,52.7,Ovo-Vegetarian,7,None,950,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+79,Male,12.9,39,228,318,91,3.2,169,127,148,178,46.7,Non-Vegetarian,72,Moderate,1250,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+81,Female,11.9,36,232,322,93,3.3,171,129,132,153,56.5,Vegetarian,0,Low,850,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+21,Male,15.7,46,87,170,24,0.6,115,72,70,177,22.3,Non-Vegetarian,0,None,2400,None,Normal
+23,Female,13.2,39,91,181,22,0.5,109,70,57,161,22.0,Vegetarian,0,None,2000,None,Normal
+25,Male,16.1,49,95,167,20,0.4,113,73,83,191,22.8,Non-Vegetarian,2,Low,2600,None,Normal
+27,Female,12.8,38,100,188,27,0.6,116,74,63,169,22.1,Ovo-Vegetarian,0,None,2100,None,Normal
+29,Male,15.1,45,106,196,30,0.7,120,78,89,186,25.7,Non-Vegetarian,11,Moderate,2500,None,Normal
+31,Female,13.5,40,110,201,32,0.8,122,80,71,171,24.3,Vegetarian,0,Low,2200,None,High_Cholesterol
+33,Male,14.8,44,116,206,35,0.9,124,82,92,181,28.1,Non-Vegetarian,17,High,2400,None,High_Cholesterol
+35,Female,11.5,34,120,210,38,1.0,126,84,77,166,27.9,Ovo-Vegetarian,5,None,2000,Fatigue,Anemia_and_High_Cholesterol
+37,Male,13.0,39,126,216,40,1.1,128,86,97,179,30.2,Non-Vegetarian,21,Moderate,2300,None,High_Cholesterol_and_Obesity
+39,Female,10.0,30,130,220,42,1.2,130,88,81,163,30.4,Vegetarian,0,Low,1900,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Obesity
+41,Male,12.5,37,136,226,45,1.3,132,90,101,176,32.6,Non-Vegetarian,27,High,2200,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+43,Female,9.5,28,140,230,48,1.4,134,92,87,160,33.9,Ovo-Vegetarian,0,None,1800,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+45,Male,14.0,42,146,236,50,1.5,136,94,107,183,31.9,Non-Vegetarian,32,Moderate,2100,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+47,Female,11.0,33,150,240,52,1.6,138,96,91,158,36.4,Vegetarian,10,Low,1700,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+49,Male,13.5,40,156,246,55,1.7,140,98,111,180,34.2,Non-Vegetarian,37,High,2000,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+51,Female,10.5,31,160,250,58,1.8,142,100,95,155,39.5,Vegetarian,0,None,1500,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+53,Male,14.5,43,165,255,60,1.9,144,102,115,178,36.2,Non-Vegetarian,40,Moderate,1800,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+55,Female,9.8,29,170,260,62,2.0,146,104,100,152,43.2,Ovo-Vegetarian,15,Low,1400,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+57,Male,12.0,36,175,265,65,2.1,148,106,120,175,39.2,Non-Vegetarian,45,High,1700,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+59,Female,11.2,33,180,270,68,2.2,150,108,105,150,46.7,Vegetarian,0,None,1300,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+61,Male,13.8,41,185,275,70,2.3,152,110,125,180,38.6,Non-Vegetarian,50,Moderate,1600,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Obesity
+63,Female,10.2,30,190,280,72,2.4,154,112,110,155,45.8,Ovo-Vegetarian,20,Low,1200,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+65,Male,14.2,42,195,285,75,2.5,156,114,130,178,41.0,Non-Vegetarian,55,High,1500,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+67,Female,9.2,27,200,290,78,2.6,158,116,115,152,49.7,Vegetarian,0,None,1100,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+69,Male,13.2,39,205,295,80,2.7,160,118,135,175,44.1,Non-Vegetarian,60,Moderate,1400,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+71,Female,10.8,32,210,300,82,2.8,162,120,120,150,53.3,Ovo-Vegetarian,25,Low,1000,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+73,Male,14.8,44,215,305,85,2.9,164,122,140,180,43.2,Non-Vegetarian,65,High,1300,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+75,Female,9.5,28,220,310,88,3.0,166,124,125,155,52.0,Vegetarian,5,None,900,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+77,Male,12.8,38,225,315,90,3.1,168,126,145,178,45.7,Non-Vegetarian,70,Moderate,1200,Joint Pain,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+79,Female,11.8,35,230,320,92,3.2,170,128,130,152,56.2,Ovo-Vegetarian,0,Low,800,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+49,Male,14.5,43,120,200,40,1.0,125,80,85,175,27.8,Non-Vegetarian,5,Moderate,2200,None,Normal
+34,Female,13.2,39,100,190,30,0.8,118,75,65,168,23.0,Vegetarian,0,None,1900,None,Normal
+56,Male,11.0,33,180,250,80,2.0,140,90,100,180,30.9,Non-Vegetarian,20,High,1500,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+42,Female,10.1,30,160,230,70,1.8,135,88,90,160,35.2,Ovo-Vegetarian,0,Low,1200,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+67,Male,15.2,45,90,180,35,0.9,122,78,80,182,24.2,Non-Vegetarian,10,Moderate,2400,None,Normal
+28,Female,12.5,37,110,200,40,1.1,128,82,70,165,25.7,Vegetarian,0,None,2000,None,Normal
+75,Male,9.5,28,220,300,150,4.0,160,100,110,170,38.1,Non-Vegetarian,30,High,800,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+51,Female,13.8,41,105,210,45,1.2,130,85,75,170,25.9,Ovo-Vegetarian,0,None,1800,None,High_Cholesterol
+45,Male,14.8,44,190,260,90,2.5,150,95,95,178,29.9,Non-Vegetarian,25,Moderate,1300,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease
+39,Female,11.2,33,140,220,60,1.5,132,86,85,162,32.4,Vegetarian,0,None,1600,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Obesity
+63,Male,13.5,40,130,240,75,1.9,138,88,90,172,30.4,Non-Vegetarian,15,Low,1900,None,High_Sugar_and_High_Cholesterol_and_Obesity
+48,Female,10.5,31,200,280,120,3.1,155,98,92,158,36.9,Ovo-Vegetarian,5,None,1000,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+59,Male,12.8,38,150,230,65,1.6,134,87,88,176,28.4,Non-Vegetarian,12,Moderate,2100,None,High_Sugar_and_High_Cholesterol
+72,Female,9.8,29,210,290,140,3.5,158,99,88,155,36.6,Vegetarian,0,High,900,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+31,Male,15.9,48,85,170,28,0.7,115,72,78,188,22.1,Non-Vegetarian,0,None,2500,None,Normal
+25,Female,13.0,39,95,185,25,0.6,112,70,60,165,22.0,Ovo-Vegetarian,0,None,2100,None,Normal
+68,Male,10.2,30,195,270,110,2.8,152,96,105,175,34.3,Non-Vegetarian,28,High,1100,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+41,Female,12.1,36,120,205,50,1.3,130,84,78,169,27.3,Vegetarian,0,None,1700,None,High_Cholesterol
+53,Male,13.9,41,160,245,85,2.2,145,92,98,177,31.3,Non-Vegetarian,18,Moderate,1400,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+36,Female,11.5,34,170,235,75,1.9,136,89,82,164,30.5,Ovo-Vegetarian,3,Low,1500,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+78,Male,9.2,27,230,310,160,4.2,165,105,115,172,38.8,Non-Vegetarian,35,High,700,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+46,Female,13.6,40,115,215,55,1.4,133,86,72,167,25.8,Vegetarian,0,None,1800,None,High_Cholesterol
+61,Male,11.8,35,140,225,70,1.8,137,88,94,180,29.0,Non-Vegetarian,22,Moderate,2000,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease
+33,Female,12.9,38,105,195,38,1.0,126,81,68,166,24.7,Ovo-Vegetarian,0,None,1950,None,Normal
+70,Male,14.2,42,180,255,95,2.6,148,94,102,174,33.7,Non-Vegetarian,20,Low,1250,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+44,Female,10.8,32,150,220,65,1.7,134,87,88,161,33.9,Vegetarian,0,High,1450,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+55,Male,15.5,46,100,190,42,1.1,124,79,88,185,25.7,Non-Vegetarian,8,Moderate,2350,None,Normal
+29,Female,13.1,39,90,180,29,0.7,116,74,62,167,22.2,Ovo-Vegetarian,0,None,2050,None,Normal
+80,Male,9.0,26,240,320,170,4.5,170,110,120,168,42.5,Non-Vegetarian,40,High,600,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+50,Female,12.2,36,130,210,58,1.5,131,85,80,163,30.1,Vegetarian,0,None,1750,None,High_Sugar_and_High_Cholesterol_and_Obesity
+65,Male,11.1,33,190,265,105,2.7,150,95,110,178,34.8,Non-Vegetarian,30,Moderate,1050,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+38,Female,11.9,35,160,225,70,1.8,135,88,84,166,30.5,Ovo-Vegetarian,0,Low,1650,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+73,Male,14.0,41,170,250,90,2.4,146,93,100,176,32.2,Non-Vegetarian,25,High,1350,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+47,Female,10.4,31,180,240,80,2.1,140,90,90,160,35.2,Vegetarian,6,None,1400,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+58,Male,15.0,45,110,200,48,1.2,128,82,92,183,27.5,Non-Vegetarian,14,Moderate,2250,None,High_Cholesterol
+32,Female,13.3,40,98,188,33,0.8,120,77,66,170,22.8,Ovo-Vegetarian,0,None,2000,None,Normal
+69,Male,10.6,31,200,275,115,2.9,154,97,108,173,36.1,Non-Vegetarian,32,High,1000,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+43,Female,12.5,37,125,215,54,1.4,132,86,80,170,27.7,Vegetarian,0,None,1700,None,High_Cholesterol
+51,Male,14.6,43,150,235,80,2.1,142,91,96,179,29.9,Non-Vegetarian,20,Moderate,1500,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease
+35,Female,11.7,35,175,240,78,2.0,138,89,86,165,31.5,Ovo-Vegetarian,0,Low,1550,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+76,Male,9.8,29,225,305,155,4.0,162,102,112,170,38.6,Non-Vegetarian,38,High,750,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+49,Female,13.2,39,110,200,45,1.2,129,83,70,168,24.8,Vegetarian,0,None,1850,None,Normal
+62,Male,12.0,36,145,230,72,1.9,139,89,95,182,28.7,Non-Vegetarian,24,Moderate,1900,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease
+34,Female,12.7,38,102,192,36,0.9,124,79,67,167,24.0,Ovo-Vegetarian,0,None,1980,None,Normal
+71,Male,14.4,43,185,260,100,2.6,150,95,104,175,34.0,Non-Vegetarian,26,Low,1200,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+45,Female,10.9,32,155,225,68,1.7,136,88,89,162,34.0,Vegetarian,0,High,1480,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+56,Male,15.3,46,105,195,44,1.1,126,80,90,186,26.0,Non-Vegetarian,10,Moderate,2300,None,Normal
+30,Female,13.5,40,95,185,31,0.8,118,76,64,168,22.7,Ovo-Vegetarian,0,None,2080,None,Normal
+82,Male,8.8,25,250,330,180,4.8,175,115,125,165,45.9,Non-Vegetarian,45,High,550,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+52,Female,12.4,37,135,215,60,1.6,133,86,82,164,30.5,Vegetarian,0,None,1720,None,High_Sugar_and_High_Cholesterol_and_Obesity
+67,Male,10.9,32,195,270,110,2.8,153,96,112,180,34.6,Non-Vegetarian,33,Moderate,1020,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+40,Female,11.4,34,165,230,72,1.9,137,88,85,167,30.5,Ovo-Vegetarian,0,Low,1620,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+75,Male,13.8,41,175,255,92,2.5,147,94,101,177,32.2,Non-Vegetarian,28,High,1320,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+48,Female,10.2,30,185,245,82,2.2,141,91,91,161,35.1,Vegetarian,8,None,1380,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+60,Male,14.8,44,115,205,50,1.3,130,83,94,184,27.7,Non-Vegetarian,16,Moderate,2200,None,High_Cholesterol
+36,Female,13.0,38,100,190,35,0.9,122,78,65,169,22.8,Ovo-Vegetarian,0,None,2020,None,Normal
+70,Male,10.4,31,205,280,120,3.0,156,98,110,174,36.4,Non-Vegetarian,35,High,980,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+42,Female,12.3,37,122,212,52,1.3,131,85,79,170,27.3,Vegetarian,0,None,1780,None,High_Cholesterol
+54,Male,14.2,42,155,240,82,2.2,143,92,97,180,29.9,Non-Vegetarian,22,Moderate,1480,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease
+37,Female,11.6,35,180,245,80,2.1,139,90,87,166,31.6,Ovo-Vegetarian,0,Low,1520,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+78,Male,9.6,28,230,310,160,4.1,164,104,114,171,39.0,Non-Vegetarian,40,High,720,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+50,Female,13.4,40,112,202,46,1.2,128,82,71,167,25.3,Vegetarian,0,None,1880,None,Normal
+64,Male,11.5,34,150,235,74,1.9,140,90,96,183,28.7,Non-Vegetarian,26,Moderate,1880,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease
+31,Female,12.8,38,104,194,37,0.9,123,78,66,168,23.4,Ovo-Vegetarian,0,None,2000,None,Normal
+73,Male,14.6,44,190,265,105,2.7,152,96,106,176,34.2,Non-Vegetarian,29,Low,1180,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+46,Female,10.7,32,160,230,70,1.8,137,88,90,163,33.8,Vegetarian,0,High,1420,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+59,Male,15.1,45,108,198,46,1.2,127,81,91,185,26.6,Non-Vegetarian,12,Moderate,2320,None,Normal
+28,Female,13.7,41,92,182,30,0.7,117,75,63,169,22.1,Ovo-Vegetarian,0,None,2120,None,Normal
+83,Male,8.6,24,255,335,185,5.0,178,118,128,164,47.5,Non-Vegetarian,50,High,520,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+53,Female,12.6,38,138,218,62,1.6,134,87,83,165,30.5,Vegetarian,0,None,1680,None,High_Sugar_and_High_Cholesterol_and_Obesity
+68,Male,10.7,32,200,275,115,2.9,155,97,114,181,34.8,Non-Vegetarian,36,Moderate,990,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+41,Female,11.2,33,170,235,74,1.9,138,89,86,168,30.5,Ovo-Vegetarian,0,Low,1580,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+77,Male,13.6,40,180,260,94,2.5,148,95,103,178,32.5,Non-Vegetarian,30,High,1280,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+49,Female,10.0,30,190,250,84,2.2,142,92,92,162,35.1,Vegetarian,10,None,1350,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+61,Male,14.7,44,112,202,48,1.2,129,82,93,183,27.8,Non-Vegetarian,18,Moderate,2280,None,High_Cholesterol
+35,Female,13.1,39,98,188,34,0.8,121,77,64,170,22.3,Ovo-Vegetarian,0,None,2050,None,Normal
+72,Male,10.2,30,210,285,125,3.1,158,99,112,175,36.6,Non-Vegetarian,38,High,950,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+44,Female,12.1,36,128,218,56,1.4,133,86,81,171,27.7,Vegetarian,0,None,1750,None,High_Cholesterol
+57,Male,14.0,42,160,245,84,2.2,144,93,98,181,29.9,Non-Vegetarian,24,Moderate,1450,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease
+39,Female,11.5,34,185,250,82,2.1,140,91,88,167,31.5,Ovo-Vegetarian,0,Low,1500,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+80,Male,9.4,27,235,315,165,4.2,166,106,116,170,39.9,Non-Vegetarian,42,High,700,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+51,Female,13.3,40,114,204,47,1.2,127,81,72,168,25.5,Vegetarian,0,None,1820,None,Normal
+66,Male,11.3,34,155,240,76,2.0,141,91,97,184,28.7,Non-Vegetarian,28,Moderate,1820,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease
+33,Female,12.6,38,106,196,38,0.9,122,77,67,169,23.5,Ovo-Vegetarian,0,None,1920,None,Normal
+74,Male,14.5,43,195,270,108,2.8,154,97,108,177,34.7,Non-Vegetarian,31,Low,1150,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+47,Female,10.5,31,165,235,72,1.8,138,89,91,164,33.8,Vegetarian,0,High,1380,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+58,Male,15.0,45,110,200,47,1.2,128,82,92,183,27.5,Non-Vegetarian,14,Moderate,2250,None,High_Cholesterol
+29,Female,13.8,41,94,184,32,0.8,118,76,64,170,22.3,Ovo-Vegetarian,0,None,2150,None,Normal
+84,Male,8.4,23,260,340,190,5.2,180,120,130,163,48.8,Non-Vegetarian,55,High,500,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+54,Female,12.8,38,140,220,64,1.7,135,88,84,166,30.5,Vegetarian,0,None,1650,None,High_Sugar_and_High_Cholesterol_and_Obesity
+69,Male,10.5,31,205,280,120,3.0,157,98,116,182,35.1,Non-Vegetarian,39,Moderate,960,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+43,Female,11.0,33,175,240,76,2.0,139,90,87,169,30.5,Ovo-Vegetarian,0,Low,1550,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+79,Male,13.4,40,185,265,96,2.6,150,96,105,179,32.8,Non-Vegetarian,32,High,1250,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+52,Female,9.8,29,195,255,86,2.3,143,93,93,163,35.0,Vegetarian,12,None,1320,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+63,Male,14.6,43,114,204,49,1.3,130,83,94,182,28.4,Non-Vegetarian,20,Moderate,2220,None,High_Cholesterol
+38,Female,13.3,40,100,190,36,0.9,122,78,65,171,22.3,Ovo-Vegetarian,0,None,2080,None,Normal
+74,Male,10.0,30,215,290,130,3.2,160,100,114,176,36.7,Non-Vegetarian,40,High,920,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+46,Female,11.9,35,130,220,58,1.5,134,87,82,172,27.7,Vegetarian,0,None,1720,None,High_Cholesterol
+59,Male,13.8,41,165,250,86,2.3,145,94,99,180,30.6,Non-Vegetarian,26,Moderate,1420,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+41,Female,11.4,34,190,255,84,2.2,141,92,89,168,31.6,Ovo-Vegetarian,0,Low,1480,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+81,Male,9.2,26,240,320,170,4.3,168,108,118,169,41.3,Non-Vegetarian,45,High,680,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+53,Female,13.5,40,116,206,48,1.2,126,80,73,166,26.5,Vegetarian,0,None,1850,None,Normal
+68,Male,11.1,33,160,245,78,2.0,142,92,98,185,28.6,Non-Vegetarian,30,Moderate,1780,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease
+30,Female,12.4,37,108,198,39,1.0,121,76,68,170,23.5,Ovo-Vegetarian,0,None,1950,None,Normal
+76,Male,14.3,43,200,275,110,2.8,156,98,110,178,34.8,Non-Vegetarian,33,Low,1120,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+48,Female,10.3,31,170,240,74,1.9,139,90,92,165,33.8,Vegetarian,0,High,1350,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+60,Male,14.9,44,118,208,48,1.2,129,82,93,184,27.4,Non-Vegetarian,15,Moderate,2200,None,High_Cholesterol
+32,Female,13.9,41,96,186,33,0.8,119,77,65,171,22.3,Ovo-Vegetarian,0,None,2100,None,Normal
+85,Male,8.2,22,265,345,195,5.4,182,122,132,162,50.2,Non-Vegetarian,60,High,480,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+55,Female,13.0,39,142,222,66,1.7,136,89,85,167,30.5,Vegetarian,0,None,1620,None,High_Sugar_and_High_Cholesterol_and_Obesity
+70,Male,10.3,31,210,285,125,3.1,159,99,118,183,35.4,Non-Vegetarian,42,Moderate,930,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+45,Female,10.8,32,180,245,78,2.0,140,91,88,170,30.4,Ovo-Vegetarian,0,Low,1520,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+82,Male,13.2,39,190,270,98,2.6,151,97,107,180,33.0,Non-Vegetarian,35,High,1220,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+54,Female,9.6,28,205,265,90,2.4,145,95,95,165,34.9,Vegetarian,16,None,1250,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+67,Male,14.3,43,122,212,52,1.4,132,85,96,180,29.6,Non-Vegetarian,25,Moderate,2120,None,High_Cholesterol
+42,Female,13.5,40,104,194,38,0.9,124,80,67,173,22.4,Ovo-Vegetarian,0,None,1980,None,Normal
+78,Male,9.6,28,225,300,140,3.4,164,102,118,178,37.2,Non-Vegetarian,47,High,860,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+50,Female,11.5,34,140,230,62,1.6,136,89,84,174,27.8,Vegetarian,0,None,1650,None,High_Cholesterol
+63,Male,13.4,40,175,260,90,2.5,147,96,101,178,31.7,Non-Vegetarian,30,Moderate,1350,None,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+45,Female,11.0,33,200,265,88,2.3,143,94,91,170,31.5,Ovo-Vegetarian,0,Low,1420,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+85,Male,8.8,24,250,330,180,4.5,172,112,122,167,43.7,Non-Vegetarian,52,High,620,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+58,Female,14.0,42,120,210,50,1.3,124,79,75,164,27.8,Vegetarian,0,None,1780,None,Normal
+73,Male,10.7,32,170,255,82,2.2,144,94,100,187,28.6,Non-Vegetarian,35,Moderate,1720,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease
+33,Female,12.0,36,112,202,41,1.0,119,74,70,172,23.6,Ovo-Vegetarian,0,None,1880,None,Normal
+80,Male,13.9,41,210,285,120,3.0,160,100,114,180,35.2,Non-Vegetarian,39,Low,1050,Joint Pain,High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+52,Female,9.9,29,180,250,78,2.0,141,92,94,167,33.7,Vegetarian,0,High,1280,Fatigue,Anemia_and_High_Sugar_and_High_Cholesterol_and_Kidney_Disease_and_Obesity
+64,Male,14.7,44,125,215,52,1.4,131,84,95,186,27.4,Non-Vegetarian,20,Moderate,2100,None,High_Cholesterol
+36,Female,14.2,42,100,190,36,0.9,121,79,67,173,22.4,Ovo-Vegetarian,0,None,2020,None,Normal
+87,Male,7.8,20,275,355,205,5.8,188,128,138,160,53.5,Non-Vegetarian,70,High,400,Fatigue,Anemia_and_High_Sugar_and_Hypertension_and_High_Cholesterol_and_Kidney_Disease_and_Obesity

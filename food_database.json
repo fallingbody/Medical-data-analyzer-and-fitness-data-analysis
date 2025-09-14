@@ -1,0 +1,483 @@
+[
+    {
+        "name": "Oatmeal (1 cup cooked)",
+        "type": "Grain",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 150,
+            "protein": 6,
+            "carbs": 27,
+            "fats": 3
+        }
+    },
+    {
+        "name": "Brown Rice (1 cup cooked)",
+        "type": "Grain",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 215,
+            "protein": 5,
+            "carbs": 45,
+            "fats": 2
+        }
+    },
+    {
+        "name": "Grilled Chicken Breast (100g)",
+        "type": "Protein",
+        "diet": [
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 165,
+            "protein": 31,
+            "carbs": 0,
+            "fats": 4
+        }
+    },
+    {
+        "name": "Baked Salmon (100g)",
+        "type": "Protein",
+        "diet": [
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 208,
+            "protein": 20,
+            "carbs": 0,
+            "fats": 13
+        }
+    },
+    {
+        "name": "Tofu (100g)",
+        "type": "Protein",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 76,
+            "protein": 8,
+            "carbs": 2,
+            "fats": 5
+        }
+    },
+    {
+        "name": "Lentils (1 cup cooked)",
+        "type": "Protein",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 230,
+            "protein": 18,
+            "carbs": 40,
+            "fats": 1
+        }
+    },
+    {
+        "name": "Egg (1 large)",
+        "type": "Protein",
+        "diet": [
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 78,
+            "protein": 6,
+            "carbs": 1,
+            "fats": 5
+        }
+    },
+    {
+        "name": "Broccoli (1 cup)",
+        "type": "Vegetable",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 55,
+            "protein": 4,
+            "carbs": 11,
+            "fats": 1
+        }
+    },
+    {
+        "name": "Spinach (1 cup cooked)",
+        "type": "Vegetable",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 41,
+            "protein": 5,
+            "carbs": 7,
+            "fats": 0
+        }
+    },
+    {
+        "name": "Avocado (1/2)",
+        "type": "Fat",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 160,
+            "protein": 2,
+            "carbs": 9,
+            "fats": 15
+        }
+    },
+    {
+        "name": "Almonds (1/4 cup)",
+        "type": "Fat",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 207,
+            "protein": 8,
+            "carbs": 8,
+            "fats": 18
+        }
+    },
+    {
+        "name": "Oatmeal (1 cup cooked)",
+        "type": "Grain",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 150,
+            "protein": 6,
+            "carbs": 27,
+            "fats": 3
+        }
+    },
+    {
+        "name": "Brown Rice (1 cup cooked)",
+        "type": "Grain",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 215,
+            "protein": 5,
+            "carbs": 45,
+            "fats": 2
+        }
+    },
+    {
+        "name": "Quinoa (1 cup cooked)",
+        "type": "Grain",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 222,
+            "protein": 8,
+            "carbs": 39,
+            "fats": 4
+        }
+    },
+    {
+        "name": "Whole Wheat Roti (1 piece)",
+        "type": "Grain",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 104,
+            "protein": 3,
+            "carbs": 22,
+            "fats": 1
+        }
+    },
+    {
+        "name": "Grilled Chicken Breast (100g)",
+        "type": "Protein",
+        "diet": [
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 165,
+            "protein": 31,
+            "carbs": 0,
+            "fats": 4
+        }
+    },
+    {
+        "name": "Baked Salmon (100g)",
+        "type": "Protein",
+        "diet": [
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 208,
+            "protein": 20,
+            "carbs": 0,
+            "fats": 13
+        }
+    },
+    {
+        "name": "Lean Beef (100g)",
+        "type": "Protein",
+        "diet": [
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 250,
+            "protein": 26,
+            "carbs": 0,
+            "fats": 15
+        }
+    },
+    {
+        "name": "Tofu (100g)",
+        "type": "Protein",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 76,
+            "protein": 8,
+            "carbs": 2,
+            "fats": 5
+        }
+    },
+    {
+        "name": "Lentils (1 cup cooked)",
+        "type": "Protein",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 230,
+            "protein": 18,
+            "carbs": 40,
+            "fats": 1
+        }
+    },
+    {
+        "name": "Chickpeas (1 cup cooked)",
+        "type": "Protein",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 269,
+            "protein": 15,
+            "carbs": 45,
+            "fats": 4
+        }
+    },
+    {
+        "name": "Egg (1 large)",
+        "type": "Protein",
+        "diet": [
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 78,
+            "protein": 6,
+            "carbs": 1,
+            "fats": 5
+        }
+    },
+    {
+        "name": "Greek Yogurt (1 cup)",
+        "type": "Protein",
+        "diet": [
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 100,
+            "protein": 17,
+            "carbs": 6,
+            "fats": 0
+        }
+    },
+    {
+        "name": "Paneer (100g)",
+        "type": "Protein",
+        "diet": [
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 265,
+            "protein": 18,
+            "carbs": 1,
+            "fats": 20
+        }
+    },
+    {
+        "name": "Broccoli (1 cup)",
+        "type": "Vegetable",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 55,
+            "protein": 4,
+            "carbs": 11,
+            "fats": 1
+        }
+    },
+    {
+        "name": "Spinach (1 cup cooked)",
+        "type": "Vegetable",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 41,
+            "protein": 5,
+            "carbs": 7,
+            "fats": 0
+        }
+    },
+    {
+        "name": "Bell Peppers (1 cup sliced)",
+        "type": "Vegetable",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 39,
+            "protein": 1,
+            "carbs": 9,
+            "fats": 0
+        }
+    },
+    {
+        "name": "Carrots (1 cup sliced)",
+        "type": "Vegetable",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 52,
+            "protein": 1,
+            "carbs": 12,
+            "fats": 0
+        }
+    },
+    {
+        "name": "Avocado (1/2)",
+        "type": "Fat",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 160,
+            "protein": 2,
+            "carbs": 9,
+            "fats": 15
+        }
+    },
+    {
+        "name": "Almonds (1/4 cup)",
+        "type": "Fat",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 207,
+            "protein": 8,
+            "carbs": 8,
+            "fats": 18
+        }
+    },
+    {
+        "name": "Olive Oil (1 tbsp)",
+        "type": "Fat",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 119,
+            "protein": 0,
+            "carbs": 0,
+            "fats": 14
+        }
+    },
+    {
+        "name": "Apple (1 medium)",
+        "type": "Fruit",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 95,
+            "protein": 1,
+            "carbs": 25,
+            "fats": 0
+        }
+    },
+    {
+        "name": "Banana (1 medium)",
+        "type": "Fruit",
+        "diet": [
+            "Pure_Veg",
+            "Ovo_Veg",
+            "Non_Veg"
+        ],
+        "nutrients": {
+            "calories": 105,
+            "protein": 1,
+            "carbs": 27,
+            "fats": 0
+        }
+    }
+]
