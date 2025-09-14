@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Report Analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: transparent;
+            /* Make body transparent to see particles */
+        }
+
+        #particles-js {
+            position: fixed;
+            /* Position it relative to the viewport */
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            /* Place it behind all other content */
+            background-color: #f9fafb;
+            /* bg-gray-50 */
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .card-hover {
+            transition: transform 0.2s;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <nav class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <i class="fas fa-heartbeat text-2xl mr-3"></i>
+                    <h1 class="text-2xl font-semibold">Health Dashboard</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-sm">Welcome, {{ username }}!</span>
+                    <a href="/profile" class="text-sm hover:underline">Profile</a>
+                    <a href="/logout"
+                        class="bg-white text-indigo-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-indigo-50 transition">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-6 py-8">
+        {% if model_is_training %}
+        <div class="mb-6 p-4 rounded-lg bg-yellow-100 text-yellow-800 flex items-center animate-pulse">
+            <i class="fas fa-cogs fa-spin mr-3"></i>
+            The AI model is currently learning from new data. Analysis might be temporarily unavailable. Please wait a
+            moment.
+        </div>
+        {% endif %}
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div
+            class="mb-6 p-4 rounded-lg {{ 'bg-red-100 text-red-700' if category == 'error' else 'bg-green-100 text-green-700' if category == 'success' else 'bg-blue-100 text-blue-700' }} flex items-center">
+            <i class="fas {{ 'fa-exclamation-circle' if category == 'error' else 'fa-check-circle' }} mr-2"></i>
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h2 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-plus-circle text-indigo-600 mr-2"></i>
+                        Generate New Plan
+                    </h2>
+                    <form method="POST" enctype="multipart/form-data" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-file-upload mr-2"></i>Upload Medical Report
+                            </label>
+                            <input type="file" name="file"
+                                class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm" required>
+                        </div>
+
+                        <div class="space-y-4">
+                            <h3 class="text-sm font-semibold text-gray-700">Personal Profile</h3>
+
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-2">Dietary Preference</label>
+                                <select name="dietary_preference"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm">
+                                    <option value="Pure_Veg">Pure Vegetarian</option>
+                                    <option value="Ovo_Veg">Ovo Vegetarian</option>
+                                    <option value="Non_Veg">Non Vegetarian</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-2">Activity Level</label>
+                                <select name="activity_level"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm">
+                                    <option value="sedentary">Sedentary</option>
+                                    <option value="moderate" selected>Moderate</option>
+                                    <option value="active">Active</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-2">Budget</label>
+                                <select name="budget"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm">
+                                    <option value="Standard">Standard</option>
+                                    <option value="Premium">Premium</option>
+                                    <option value="Economic">Economic</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-2">Physical Limitations</label>
+                                <div class="space-y-2">
+                                    <label class="flex items-center"><input type="checkbox" name="limitations"
+                                            value="Joint Pain" class="rounded text-indigo-600"><span
+                                            class="ml-2 text-sm">Joint Pain</span></label>
+                                    <label class="flex items-center"><input type="checkbox" name="limitations"
+                                            value="Respiratory Issues" class="rounded text-indigo-600"><span
+                                            class="ml-2 text-sm">Respiratory Issues</span></label>
+                                    <label class="flex items-center"><input type="checkbox" name="limitations"
+                                            value="Fatigue" class="rounded text-indigo-600"><span
+                                            class="ml-2 text-sm">Fatigue and Tiredness</span></label>
+                                    <label class="flex items-center"><input type="checkbox" name="limitations"
+                                            value="Balance Issues" class="rounded text-indigo-600"><span
+                                            class="ml-2 text-sm">Balance Issues</span></label>
+                                    <label class="flex items-center"><input type="checkbox" name="limitations"
+                                            value="Recent Surgery" class="rounded text-indigo-600"><span
+                                            class="ml-2 text-sm">Recent Surgery/Injury</span></label>
+                                    <label class="flex items-center"><input type="checkbox" name="limitations"
+                                            value="Depression/Anxiety" class="rounded text-indigo-600"><span
+                                            class="ml-2 text-sm">Depression or Anxiety</span></label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm text-gray-600 mb-2">Health Conditions</label>
+                                <div class="space-y-2">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="health_status" value="Diabetes"
+                                            class="rounded text-indigo-600">
+                                        <span class="ml-2 text-sm">Diabetes</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="health_status" value="Hypertension"
+                                            class="rounded text-indigo-600">
+                                        <span class="ml-2 text-sm">Hypertension</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="health_status" value="High_Cholesterol"
+                                            class="rounded text-indigo-600">
+                                        <span class="ml-2 text-sm">High Cholesterol</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="health_status" value="PCOS"
+                                            class="rounded text-indigo-600">
+                                        <span class="ml-2 text-sm">PCOS/PCOD</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="health_status" value="Pregnancy"
+                                            class="rounded text-indigo-600">
+                                        <span class="ml-2 text-sm">Pregnancy</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="health_status" value="Post_Partum"
+                                            class="rounded text-indigo-600">
+                                        <span class="ml-2 text-sm">Post-Partum</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition flex items-center justify-center">
+                            <i class="fas fa-magic mr-2"></i>
+                            Generate My Health Plan
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 space-y-6">
+                {% if parameters %}
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-xl font-semibold">
+                            <i class="fas fa-clipboard-list text-indigo-600 mr-2"></i>
+                            Extracted Parameters
+                        </h2>
+                        <a href="{{ url_for('analyzer') }}"
+                            class="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-300 transition">
+                            <i class="fas fa-sync-alt mr-2"></i>Analyze Another Report
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        {% for key, value in parameters.items() %}
+                        <div class="p-3 bg-gray-50 rounded-lg">
+                            <span class="text-sm font-medium text-gray-600">{{ key.replace('_', ' ') }}</span>
+                            <div class="text-lg font-semibold text-gray-900">{{ value }}</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if plans %}
+                <div class="bg-white rounded-xl shadow-md p-6 card-hover">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-list-check text-indigo-600 mr-2"></i>
+                        Your Personalized Plan
+                    </h2>
+
+                    {% if plans.diet_plan %}
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3 text-indigo-600">Diet Plan</h3>
+                        {% for day, meals in plans.diet_plan.items() %}
+                        <div class="mb-4 p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-medium text-gray-700 mb-2">{{ day }}</h4>
+                            <div class="space-y-2">
+                                {% for meal, items in meals.items() %}
+                                <div class="flex">
+                                    <span class="font-medium text-gray-600 w-24">{{ meal }}:</span>
+                                    <span class="text-gray-800">{{ items }}</span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    {% if plans.exercise_plan %}
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3 text-indigo-600">Exercise Plan</h3>
+                        {% for day, activity in plans.exercise_plan.items() %}
+                        <div class="mb-4 p-4 bg-gray-50 rounded-lg">
+                            <h4 class="font-medium text-gray-700 mb-1">{{ day }}</h4>
+                            <p class="text-gray-800">{{ activity }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if plans and plans.health_analysis %}
+                <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                    <h2 class="text-xl font-semibold mb-4">
+                        <i class="fas fa-chart-line text-indigo-600 mr-2"></i>
+                        Health Metrics Analysis
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {% for param, data in plans.health_analysis.items() %}
+                        <div
+                            class="p-4 rounded-lg {{ 'bg-green-50' if data.status == 'Normal' else 'bg-yellow-50' if data.status == 'Low' else 'bg-red-50' }}">
+                            <h3 class="font-medium">{{ param.replace('_', ' ') }}</h3>
+                            <div class="mt-2 space-y-1">
+                                <p>Your value: <span class="font-semibold">{{ data.value }}</span></p>
+                                <p>Normal range: {{ data.normal_range[0] }} - {{ data.normal_range[1] }}</p>
+                                <p
+                                    class="text-sm {{ 'text-green-600' if data.status == 'Normal' else 'text-yellow-600' if data.status == 'Low' else 'text-red-600' }}">
+                                    Status: {{ data.status }}
+                                    {% if data.status != 'Normal' %}
+                                    ({{ 'below' if data.status == 'Low' else 'above' }} by {{ data.difference|round(1)
+                                    }})
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if plans and plans.nutritional_requirements %}
+                <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                    <h2 class="text-xl font-semibold mb-4">
+                        <i class="fas fa-utensils text-indigo-600 mr-2"></i>
+                        Daily Nutritional Requirements
+                    </h2>
+
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="p-4 bg-blue-50 rounded-lg">
+                            <h3 class="font-medium">Calories</h3>
+                            <p class="text-2xl font-bold text-blue-600 mt-2">
+                                {{ plans.nutritional_requirements.daily_calories }}
+                            </p>
+                        </div>
+
+                        <div class="p-4 bg-green-50 rounded-lg">
+                            <h3 class="font-medium">Protein</h3>
+                            <p class="text-2xl font-bold text-green-600 mt-2">
+                                {{ plans.nutritional_requirements.daily_protein }}
+                            </p>
+                        </div>
+
+                        <div class="p-4 bg-yellow-50 rounded-lg">
+                            <h3 class="font-medium">Carbohydrates</h3>
+                            <p class="text-2xl font-bold text-yellow-600 mt-2">
+                                {{ plans.nutritional_requirements.carbs_grams }}
+                            </p>
+                        </div>
+
+                        <div class="p-4 bg-purple-50 rounded-lg">
+                            <h3 class="font-medium">Fats</h3>
+                            <p class="text-2xl font-bold text-purple-600 mt-2">
+                                {{ plans.nutritional_requirements.fats_grams }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if risks %}
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h2 class="text-xl font-semibold mb-4">
+                        <i class="fas fa-shield-alt text-red-600 mr-2"></i>
+                        Potential Health Risks
+                    </h2>
+                    <div class="space-y-4">
+                        {% for risk in risks %}
+                        <div class="p-4 rounded-lg bg-red-50">
+                            <h3 class="font-medium text-red-700">{{ risk.name }}</h3>
+                            <p class="text-sm text-red-600 mt-1">{{ risk.reason }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-gray-300 mt-12">
+        <div class="container mx-auto px-6 py-4">
+            <div class="text-center text-sm">
+                © 2025 Health Report Analyzer. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#764ba2" // A color from your navbar gradient
+                },
+                "shape": {
+                    "type": "circle",
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#667eea", // The other color from your navbar gradient
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "repulse": {
+                        "distance": 100,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+
+</html>
