@@ -27,19 +27,19 @@ The application's workflow is as follows:
 ## Outputs
 
 ### index.html
-
+![Alt text for the image](index.png)
 The landing page of the application, which provides a brief introduction to the project and links to the login and signup pages.
 
 ### dashboard.html
-
+![Alt text for the image](dashboard.png)
 After logging in, the user is directed to the dashboard. Here, they can upload their medical reports and input personal profile information such as dietary preferences, activity level, and physical limitations. The dashboard also displays any previously generated plans.
 
 ### profile.html
-
+![Alt text for the image](profile.png)
 The user's profile page, where they can view and edit their personal information, change their profile photo, and view a history of their analyzed reports.
 
 ### report_detail.html
-
+![Alt text for the image](report.png)
 This page displays the detailed results of a medical report analysis, including the extracted parameters, the AI-predicted health condition, a list of potential health risks, and the personalized 7-day diet and exercise plans.
 
 ---
